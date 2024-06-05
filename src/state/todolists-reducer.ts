@@ -10,5 +10,9 @@ const initialState: TodolistType[] = [
 ]
 
 export const todolistsReducer = (state: TodolistType[] = initialState, action: any) => {
-   // code
+   switch (action.type) {
+      case "XXX"{
+         return state
+      }
+   }
 }
