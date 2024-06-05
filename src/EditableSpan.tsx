@@ -28,7 +28,7 @@ export const EditableSpan = ({value, onChange}: PropsType) => {
          {editMode
             ?
             <TextField
-               variant={'outlined'}
+               variant={"outlined"}
                value={title}
                size={'small'}
                onChange={changeTitleHandler}
